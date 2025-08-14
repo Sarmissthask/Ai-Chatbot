@@ -1,11 +1,9 @@
 from xagent import XAgent
-
 def get_agent():
-    # Initialize the XAgent with the required configuration
     agent = XAgent(
-        tools=[...],  # List your tools here
-        memory_config={...},  # XAgent's memory setup
-        other_params="..."  # Any other params required
+        tools=[...],  
+        memory_config={...},  
+        other_params="..."  
     )
     return agent
 
